@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookRecommender", "BookRecommender\BookRecommender.csproj", "{90DE4262-E993-4CF7-9837-46F8EE3379C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookRecommender.Core", "BookRecommender.Core\BookRecommender.Core.csproj", "{2FACB4DF-BC24-4A09-909F-30D232B70D2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90DE4262-E993-4CF7-9837-46F8EE3379C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90DE4262-E993-4CF7-9837-46F8EE3379C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90DE4262-E993-4CF7-9837-46F8EE3379C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90DE4262-E993-4CF7-9837-46F8EE3379C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FACB4DF-BC24-4A09-909F-30D232B70D2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FACB4DF-BC24-4A09-909F-30D232B70D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FACB4DF-BC24-4A09-909F-30D232B70D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FACB4DF-BC24-4A09-909F-30D232B70D2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BBE6B75-C2E9-4F57-963E-740A5E279023}
+	EndGlobalSection
+EndGlobal
