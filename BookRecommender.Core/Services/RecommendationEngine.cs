@@ -108,12 +108,10 @@ public sealed class RecommendationEngine
         int n = v.Length;
         var sim = new float[n, n];
 
-        // ❶ cache norms
         var norms = new float[n];
         for (int i = 0; i < n; i++)
             norms[i] = MathF.Sqrt(v[i].Sum(x => x * x)) + 1e-10f;
 
-        // ❷ fill upper-triangle in parallel
         Parallel.For(0, n, i =>
         {
             var vi = v[i];
